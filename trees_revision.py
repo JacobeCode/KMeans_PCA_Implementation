@@ -99,3 +99,4 @@ with mlflow.start_run():
         input_example=X_train_counts,
         registered_model_name="logging_quickstart",
     )
+    mlflow.log_artifacts()
