@@ -12,7 +12,6 @@ class csv_data_processing:
     def process_data(self, database_name):
         self.database=pd.read_csv(database_name)
 
-        # Add description notes or files for some of the data
         for column in self.database:
             unique=self.database[column].unique()
             for iter, token in enumerate(unique):

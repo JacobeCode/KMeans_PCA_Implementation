@@ -1,2 +1,5 @@
 0: ApplicantIncome
 1: LoanAmount
+2: Loan_Amount_Term
+3: CoapplicantIncome
+4: Gender
