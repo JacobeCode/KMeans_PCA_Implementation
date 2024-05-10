@@ -27,4 +27,3 @@ In this repository you can find files and experiments connected to:
 - trees - files connected to Tree-like algorithms
     - trees.py - small project connected to Decision Tree Classifier - created mainly to experiment and learn working with MLFlow
 - requirements.txt/requirements.yml - files with required libs for this repository
-
