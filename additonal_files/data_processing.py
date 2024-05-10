@@ -1,9 +1,7 @@
-import matplotlib
+# Manual processing for CSV-like data for the project
+# Loading the data and changing categorical data into numeriacal - like One Hot Encoding
 
-import numpy as np
 import pandas as pd
-
-from pandas.plotting import scatter_matrix
 
 class csv_data_processing:
     def __init__(self):
@@ -12,7 +10,6 @@ class csv_data_processing:
     def process_data(self, database_name):
         self.database=pd.read_csv(database_name)
 
-        # Add description notes or files for some of the data
         for column in self.database:
             unique=self.database[column].unique()
             for iter, token in enumerate(unique):
